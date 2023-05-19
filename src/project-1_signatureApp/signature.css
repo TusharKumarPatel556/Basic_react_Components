@@ -1,0 +1,41 @@
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+footer {
+    background: linear-gradient(transparent, black);
+}
+
+.date {
+    margin: 30px;
+}
+
+
+.title {
+    margin: 30px;
+    font-size: 60px;
+    background: linear-gradient(90deg, rgba(0, 172, 95, 0.71), rgb(108, 255, 228));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-title {
+    background: linear-gradient(90deg, rgba(47, 129, 253, 0.71), rgb(108, 255, 228));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.para {
+    background: linear-gradient(135deg, rgb(16, 71, 250), rgba(238, 72, 229, 0.673));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

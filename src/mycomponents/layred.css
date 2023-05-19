@@ -1,0 +1,64 @@
+.layer-container {
+    background-color: rgba(18, 18, 18, 0.816);
+    position: relative;
+    border: 1px solid black;
+    height: 500px;
+    /* margin-top: 300px; */
+
+}
+
+.layer {
+    margin-top: 150px;
+    /* width: 300px;
+    height: 255px; */
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    /* background-image: url("images/laptop.jpg"); */
+}
+
+/* #base {
+    transform: translateY(50px) translateX(15px);
+    opacity: 0.1;
+}
+
+#base-upper {
+    transform: translateY(60px) translateX(20px);
+
+    opacity: 0.3;
+}
+
+#top-lower {
+    transform: translateY(70px) translateX(25px);
+    ;
+    opacity: 0.3;
+}
+
+#top {
+    transform: translateY(80px) translateX(30px);
+    ;
+    opacity: 1;
+} */
+#base {
+    transform: translateX(115px) scale(0.5);
+    opacity: 0.1;
+}
+
+#base-upper {
+    transform: translateX(120px) scale(0.6);
+
+    opacity: 0.3;
+}
+
+#top-lower {
+    transform: translateX(125px) scale(0.8);
+    ;
+    opacity: 0.3;
+}
+
+#top {
+    transform: translateX(135px) scale(0.9);
+
+
+    opacity: 0;
+}
